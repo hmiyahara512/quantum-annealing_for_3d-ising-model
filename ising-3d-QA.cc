@@ -31,7 +31,7 @@ int main()
   double ene;
   double ene1;
   double ene2;
-  double temp;
+  // double temp;
   double random;
   double Jt;
 
@@ -96,7 +96,7 @@ int main()
   ene = energy2(sz, Jr);
   fout1 << 0 << ' ' << ene << endl;
 
-  temp=10.000*exp(-99/10);
+  // temp=10.000*exp(-99/10);
 
   for (int h=0; h<100; h++)
     {
@@ -173,7 +173,7 @@ double energy(double sz[Nx][Ny][Nz][Nt], double Jr[Nx][Ny][Nz][3], double Jt)
 {
 
   double ene=0.0;
-  double J=1.0;
+  // double J=1.0;
   double H=1.0;
 
   for (int i=0; i<Nx-1; i++)
@@ -259,7 +259,7 @@ double energy2(double sz[Nx][Ny][Nz][Nt], double Jr[Nx][Ny][Nz][3])
 {
 
   double ene=0.0;
-  double J=1.0;
+  // double J=1.0;
   double H=1.0;
 
   for (int i=0; i<Nx-1; i++)
