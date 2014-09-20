@@ -1,5 +1,5 @@
 /*
- * test.cpp -
+ * ising-3d-QA.cpp -
  *
  *   Copyright (c) 2014
  *   hmiyahara512 (Hideyuki Miyahara) <hmiyahara512@gmail.com>
